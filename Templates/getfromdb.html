@@ -1,0 +1,17 @@
+{% extends 'index.html '%}
+{% block Content %}
+<h1>STUDENT DETAILS</h1> <br> <br>
+
+<form method="POST" action="get_details">
+<label>STARTING ROLL NUMBER</label><br>
+{%csrf_token%}
+<div class="textbox">
+<input name = "num" type="number" placeholder="roll number">
+</div><br>
+<label>ENDING ROLL NUMBER</label><br>
+<div class="textbox">
+<input name = "num" type="number" placeholder="roll number">
+</div><br>
+<button type="submit" name="button" class="btn login_btn">Submit</button>
+</form>
+{% endblock %}

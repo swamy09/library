@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background: linear-gradient(138deg,#9198e5,#e66465);
+    background-size:cover;
+    background-position:center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+.regbox{
+    width: 400px;
+    height: 550px;
+    background: #fff;
+    opacity: 80%;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 90 50px;
+    -webkit-box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.80);
+    -moz-box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.80);
+    box-shadow: 10px -7px 16px 0px rgba(0,0,0,0.80);
+}
+.regbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    height: 10px;
+    text-align: center;
+   
+}
+.regbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+
+}
+.regbox input{
+    width: 50%;
+    margin-bottom: 25px;
+}
+.login_btn {
+    width: 100%;
+    background:  #12191f !important;
+    color: white !important;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:1px solid #12191f;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color:#000;
+    font-size: 18px;
+    width:80%;
+    float: left;
+    margin:0 10px;
+}
+
